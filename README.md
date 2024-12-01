@@ -115,7 +115,7 @@ The tool supports extracting email metadata, identifying phishing attempts, anal
   - Interacts with the MISP threat intelligence platform to gather additional threat data.
   - [PyMISP GitHub](https://github.com/MISP/PyMISP)
 
-## Recommended Project Structure
+## Project Structure
 
 ```bash
 email_analyzer/
@@ -161,16 +161,4 @@ email_analyzer/
    ```bash
    python3 main.py
    ```
-
-## CLI or GUI?
-
-### Command Line Interface (CLI)
-- The initial version of this tool is a **CLI**. This is faster to develop, resource-efficient, and ideal for technical users like security analysts.
-
-### Graphical User Interface (GUI)
-- If you wish to make the tool more user-friendly, you can later extend it to a **GUI** using tools like **Tkinter**, **PyQt**, or create a web-based interface using **Flask** or **Django**.
-
-## Future Enhancements
-- Add **multi-threading** to parallelize API requests for faster results.
-- Expand to a **GUI** for better usability by non-technical users.
-- Integrate additional threat intelligence feeds like **OTX** (Open Threat Exchange) or **CIRCL**.
+   
